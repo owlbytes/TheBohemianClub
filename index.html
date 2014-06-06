@@ -25,22 +25,22 @@
   <br>
   <div class="container">
     <div class="sixteen columns">
-      <ul id="og-grid" class="og-grid">
+      <ul id="thumb-grid" class="thumb-grid">
 <!--         each list item in the unordered grid contains an anchor with several data attributes -->
         <li>
 <!--           href value is used to construct the link in the preview description. the data-largesrc attribute contains the path to the larger image. -->
           <a href="http://www.google.com" data-largesrc="Images/largeplaceholder.jpg" data-title="Name of Album" data-description="Short description of release">
             <img src="Images/placeholder.jpg" alt="link to band">
           </a>
-
-          <div class="og-expander">
-            <div class="og-expander-inner">
-              <span class="og-close"></span>
-              <div class="og-fullimg">
-                <div class="og-loading"></div>
+<!--           when we click on the thumbnail image of the band cd cover, we want a preview element to appear under the li. So we insert an element into the grid, adding the preview element after the anchor. -->
+          <div class="thumb-expander">
+            <div class="thumb-expander-inner">
+              <span class="thumb-close"></span>
+              <div class="thumb-fullimg">
+                <div class="thumb-loading"></div>
                 <img src="Images/placeholder.jpg">
               </div>
-              <div class="og-details">
+              <div class="thumb-details">
                 <h3>Text</h3>
                 <p>Text Text Text</p>
                 <a href="#">Learn More About Band</a>
@@ -52,7 +52,7 @@
 
 
         <li>
-          <a href="http://www.google.com" data-largesrc="Images/largeplaceholder.jpg" data-title="Name of Album" data-description="Short description of release">
+          <a href="http://www.gothumble.com" data-largesrc="Images/largeplaceholder.jpg" data-title="Name of Album" data-description="Short description of release">
             <img src="Images/placeholder.jpg" alt="link to band">
           </a>
         </li>
