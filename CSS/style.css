@@ -56,3 +56,12 @@
     padding: 50px 30px;
     height: 100%;
 }
+
+
+#thumb{
+  opacity: 0.7;
+}
+
+#thumb:hover{
+  opacity: 1;
+}
