@@ -1,5 +1,5 @@
 /*grid*/
-
+/*
 .thumb-grid{
   list-style: none;
   padding: 20px 0;
@@ -55,44 +55,4 @@
 .thumb-expander-inner {
     padding: 50px 30px;
     height: 100%;
-}
-
-/*The cross for closing the preview will be created using pseudo-elements (2 rotated lines)*/
-.thumb-close {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-}
- 
-.thumb-close::before,
-.thumb-close::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    height: 1px;
-    background: #888;
-    transform: rotate(45deg);
-}
- 
-.thumb-close::after {
-    transform: rotate(-45deg);
-}
- 
-.thumb-close:hover::before,
-.thumb-close:hover::after {
-    background: blue;
-}
-
-/*image and details will float next to each other*/
-.thumb-fullimg,
-.thumb-details {
-    width: 50%;
-    float: left;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
 }
