@@ -1,66 +1,18 @@
-/*grid*/
-/*
-.thumb-grid{
-  list-style: none;
-  padding: 20px 0;
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
+
+#thumb1{
+  background: url("Images/Thumbs/KurtBaggaley.jpg");
 }
 
-.thumb-grid li{
-  display: inline-block;
-  margin: 10px 5px 0 5px;
-  vertical-align: top;
-  height: 250px;
+#thumbimage{
+  width: 220px;
+  height: 220px;
+  background: url("Images/Thumbs/KurtBaggaley.jpg");
 }
-
-/*links and images are displayed as block elements*/
-.thumb-grid li > a,
-.thumb-grid li > a img {
-  border: none;
-  outline: none;
-  display: block;
-  position: relative;
-}
-
-/*when you click on a thumbnail we give it a special class to the respective li (called thumb-expanded). also add an arrow as a pseudo-element to the anchor.*/
-.thumb-grid li.thumb-expanded > a::after {
-    top: auto;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-bottom-color: #ddd;
-    border-width: 15px;
-    left: 50%;
-    margin: -20px 0 0 -15px;
-}
-
-/*preview box thingy is .thumb-expander and is positioned absolutely.*/
-.thumb-expander {
-    position: absolute;
-    background: #ddd;
-    top: auto;
-    left: 0;
-    width: 100%;
-    margin-top: 10px;
-    text-align: left;
-    height: 0;
-    overflow: hidden;
-}
- 
-.thumb-expander-inner {
-    padding: 50px 30px;
-    height: 100%;
-}
-
 
 #thumb{
   opacity: 1;
   position: relative;
+  background: url("Images/Thumbs/KurtBaggaley.jpg");
 }
 
 #thumb:hover{
@@ -74,11 +26,19 @@ h6 {
   width: 100%;
 }
 
-h6 span {
+/*h6 span {
   color: red;
   font: bold 14px/35px Helvetica, Sans-Serif;
   letter-spacing: -1px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,1);
+  padding: 10px;
+}*/
+
+h6 span:hover {
+  color: red;
+  font: bold 14px/35px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background-color: rgba(0,0,0,1);
   padding: 10px;
 }
 
