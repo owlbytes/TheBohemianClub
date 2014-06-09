@@ -1,12 +1,8 @@
 
-#thumb1{
-  background: url("Images/Thumbs/KurtBaggaley.jpg");
-}
 
 #thumbimage{
   width: 220px;
   height: 220px;
-  background: url("Images/Thumbs/KurtBaggaley.jpg");
 }
 
 #thumb{
@@ -16,7 +12,8 @@
 }
 
 #thumb:hover{
-  opacity: 0.5;
+/*  opacity: 0.5;*/
+  border:8px solid #BDE000;
 }
 
 h6 {
