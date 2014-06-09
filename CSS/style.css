@@ -8,11 +8,10 @@
 #thumb{
   opacity: 1;
   position: relative;
-  background: url("Images/Thumbs/KurtBaggaley.jpg");
 }
 
 #thumb:hover{
-/*  opacity: 0.5;*/
+  opacity: 0.5;
   border:8px solid #BDE000;
 }
 
