@@ -1,4 +1,17 @@
+#releases_page {
+  background: url("http://i.imgur.com/G15ljtN.jpg") no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(127,174,182, 0.5);
+  width: 100%;
+  height: auto%;
+}
 
+#center{
+  text-align: center;
+}
 
 #thumbimage{
   width: 220px;
@@ -7,38 +20,26 @@
 
 #thumb{
   opacity: 1;
-  position: relative;
+  background-color: rgba(126,174,186,0);
+  color: rgba(255, 255, 255, 0.2);
+/*  position: relative;*/
+  text-align: center;
 }
 
 #thumb:hover{
-  opacity: 0.5;
-  border:8px solid #BDE000;
+  border:8px solid rgba(255,89,168, 1);
+  background-color: rgba(126,174,186,0.7);
+  color: rgba(255, 255, 255, 1);
 }
 
-h6 {
-  position: absolute;
-  bottom: 15px;
-  left: 0;
-  width: 100%;
+ #thumb h4{
+  color: rgba(255, 255, 255, 0);
+} 
+
+ #thumb h4:hover{
+  color: rgba(255, 255, 255, 1);
+} 
+
+#gridlinks{
+  text-decoration: none;
 }
-
-/*h6 span {
-  color: red;
-  font: bold 14px/35px Helvetica, Sans-Serif;
-  letter-spacing: -1px;
-  background-color: rgba(0,0,0,1);
-  padding: 10px;
-}*/
-
-h6 span:hover {
-  color: red;
-  font: bold 14px/35px Helvetica, Sans-Serif;
-  letter-spacing: -1px;
-  background-color: rgba(0,0,0,1);
-  padding: 10px;
-}
-
-h6 span.spacer {
-   padding:0 5px;
-}
-
